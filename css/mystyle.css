@@ -1,0 +1,283 @@
+body
+{
+	background-image: url(../img/sandpaper.png);
+	background-repeat: repeat;
+	overflow-x: hidden;
+}
+
+h2
+{
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.navbar-brand img
+{
+	width: 30%;
+	height: auto;
+}
+
+.nav > li > a 
+{
+  font-size: 14px;			
+  position: relative;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 100px;
+  color: #ffffff !important;
+}
+
+.nav > li > a:hover
+{
+	color: #9d9d9d !important;
+}
+
+
+#brushes
+{
+	position: relative;
+	width: 100%;
+}
+
+#brushes img
+{
+	width: 100%;
+	height: auto;
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+#quote
+{
+	position: absolute;
+    font-size: 18px;
+    top: 85%;
+    width: 100%;
+}
+
+#quote h1, h6
+{
+	text-align: center;
+	text-shadow: 0 0 3px #0d0d0d, 0 0 5px #000000;
+}
+
+.figcaption-style
+{
+	margin-left: 10%;
+	margin-right: 10%
+	margin-top: 0%;
+	margin-bottom: 5%;
+}
+
+.figcaption-style h3
+	{
+		text-align: center;
+		font-size: 30px;
+		font-weight: normal;
+		font-family: "Times New Roman";
+		font-style: italic;
+		letter-spacing: -2px;
+	}
+
+.figcaption-style p
+	{
+		text-align: center;
+		font-size: 10px;
+		font-weight: bold;
+		font-family: Verdana;
+	}	
+
+.figcaption-style hr
+{
+	width: 5%;
+	color: #000000;
+	/*background-color: #9E9E9E;*/
+	height: 1px;
+	text-align: left;
+}
+
+.img-thumbnail
+{
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	margin-left: 10%;
+	margin-right: 10%
+	margin-top: 5%;
+	margin-bottom: 5%; 
+	background-color: #0d0d0d;  /*dark grey*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-thumbnail:hover
+{
+	-webkit-filter: brightness(120%); 
+    filter: brightness(120%);
+}
+
+#about-artist
+{
+	width: 80%;
+	height: 50%;
+	background-color: #853D3A;    /*reddish brown*/
+	margin: 10%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#about-artist h3
+{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-top: 110px;
+	padding-left: 130px;
+	padding-bottom: 70px;
+}
+
+#about-artist p
+{
+	color: white;
+	text-align: justify;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-bottom: 130px;
+}
+
+#about-artist a
+{
+	float: right;
+	color: white;
+	text-decoration: none;
+}
+
+.artist-photo
+{
+	width: 100%;
+	height: auto; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.paintings
+{
+	float: left;
+	width: 33%;
+	height: auto;
+	padding: 5%;
+}
+
+.paintings img
+{
+	width: 300px;
+	height: 200px;
+}
+
+/*Slideshow*/
+#myCarousel {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-linked-nav,
+.item img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.carousel-linked-nav {
+  width: 120px;
+  margin-bottom: 20px;   
+}
+
+#contact
+{
+	margin-top: 100px;
+}
+
+#contact-data
+{
+	text-align: center;
+}
+
+#contact-data hr
+{
+	width: 40%;
+}
+
+#contact-data h4
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: serif;
+	letter-spacing: 3px;
+}
+
+#contact-data h5
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#contact-data p
+{
+	font-size: 15px; 
+}
+
+footer.page-footer 
+{
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #0d0d0d;
+}
+
+footer.page-footer .footer-copyright 
+{
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(51, 51, 51, 0.08);
+}
+
+footer img
+{
+	width: 60%;
+	height: auto;
+	-webkit-filter: invert(100%); 
+    filter: invert(100%);
+}
+
+footer img:hover
+{
+	-webkit-filter: brightness(120%); 
+    filter: brightness(120%);
+}
+
+/*GUESTBOOK*/
+
+.guestbook-content
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.guestbook-content hr
+{
+	width: 30%;
+	margin-left: 0px;
+
+}
+
+.entry-date
+{
+	font-size: 10px;
+	font-weight: bold;
+}
+
